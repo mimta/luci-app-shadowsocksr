@@ -96,7 +96,7 @@ if has_redir then
 
 	o = s:option(Value, "local_port", translate("Local Port"))
 	o.datatype = "port"
-	o.default = 1234
+	o.default = 1080
 	o.rmempty = false
 end
 
