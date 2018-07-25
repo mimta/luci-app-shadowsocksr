@@ -109,7 +109,7 @@ o.rmempty = false
 
 o = s:option(Value, "plugin_obfs_param", translate("OBFS-PARAM"))
 o.datatype = "host"
-o.default = "bing.com"
+o.default = ""
 o.rmempty = true
 
 return m
